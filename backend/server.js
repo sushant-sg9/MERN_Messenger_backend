@@ -38,7 +38,7 @@ const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
     origin: "https://mern-messenger-frontend.vercel.app",
-    // credentials: true,
+    credentials: true,
   },
 });
 
